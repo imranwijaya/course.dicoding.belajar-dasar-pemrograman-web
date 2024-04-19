@@ -8,164 +8,140 @@
     <link rel="icon" href="./static/favicon.ico" type="image/x-icon" sizes="16x16" />
   </head>
 
-  <body class="bg-[#F2F2F2] text-[#4F4F4F]">
-    <header class="flex h-16 w-full flex-col justify-center">
-      <nav class="container flex items-center min-h-16 w-full mx-auto gap-6 px-4 py-0">
-        <div class="w-1/2"></div>
-        <div class="shrink-0">
-          <a href="/" class="text-2xl font-semibold" aria-label="Homepage">Portfolio</a>
+  <body class="body">
+    <header class="header">
+      <nav class="container nav">
+        <div class="w-half"></div>
+        <div class="title-container">
+          <a href="/" class="title" aria-label="Homepage">Portfolio</a>
         </div>
-        <div class="w-1/2"></div>
+        <div class="w-half"></div>
       </nav>
     </header>
-    <main class="container px-2 mx-auto gap-4 flex flex-col-reverse lg:flex-row min-h-[calc(100vh_-_8rem)]">
-      <div id="content" class="w-full lg:w-8/12 flex flex-col gap-4">
-        <article class="flex flex-col gap-x-6 gap-y-4 rounded-xl bg-white p-4 lg:flex-row lg:p-6">
-          <figure class="relative my-auto aspect-square w-full overflow-hidden rounded-xl hover:shadow-md lg:w-2/5">
+    <main class="main">
+      <div id="content">
+        <article class="article-project-container">
+          <figure class="article-project-img-container">
             <img
               alt="Recipe Blog"
               fetchpriority="high"
-              class="aspect-square rounded-xl object-cover object-left-top transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
               style="color: transparent;"
               src="./static/images/recipe-page-desktop.png"
             />
           </figure>
-          <div class="w-full space-y-4 lg:w-3/5 lg:space-y-6">
-            <div class="w-full space-x-2 break-words">
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Next.js</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#HTML</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#CSS</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#responsive</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Recipe</span>
+          <div class="article-tag-container">
+            <div>
+              <span class="article-tag">#Next.js</span>
+              <span class="article-tag">#HTML</span>
+              <span class="article-tag">#CSS</span>
+              <span class="article-tag">#responsive</span>
+              <span class="article-tag">#Recipe</span>
             </div>
-            <div class="space-y-4">
-              <h3 class="text-2xl font-medium text-[#333333]">Recipe Blog</h3>
-              <p class="break-words text-sm font-medium text-[#828282] lg:text-base">
+            <div class="article-content-container">
+              <h3>Recipe Blog</h3>
+              <p>
                 In this project, I work with NEXT.JS, HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
               </p>
             </div>
-            <div class="flex flex-row justify-center gap-x-3 lg:justify-normal">
-              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/recipe-page" class="rounded-xl bg-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-white lg:text-lg">Demo</span>
+            <div class="article-link-container">
+              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/recipe-page" class="article-link-demo" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Demo</span>
               </a>
-              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/recipe-page" class="rounded-xl border border-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-[#2F80ED] lg:text-lg">Code</span>
+              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/recipe-page" class="article-link-code" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Code</span>
               </a>
             </div>
           </div>
         </article>
-        <article class="flex flex-col gap-x-6 gap-y-4 rounded-xl bg-white p-4 lg:flex-row lg:p-6">
-          <figure class="relative my-auto aspect-square w-full overflow-hidden rounded-xl hover:shadow-md lg:w-2/5">
+        <article class="article-project-container">
+          <figure class="article-project-img-container">
             <img
               alt="My Gallery"
-              class="aspect-square rounded-xl object-cover object-left-top transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
               style="color: transparent;"
               src="./static/images/my-gallery-desktop.png"
             />
           </figure>
-          <div class="w-full space-y-4 lg:w-3/5 lg:space-y-6">
-            <div class="w-full space-x-2 break-words">
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Next.js</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#HTML</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#CSS</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#responsive</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Masonry</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Gallery</span>
+          <div class="article-tag-container">
+            <div>
+              <span class="article-tag">#Next.js</span>
+              <span class="article-tag">#HTML</span>
+              <span class="article-tag">#CSS</span>
+              <span class="article-tag">#responsive</span>
+              <span class="article-tag">#Masonry</span>
+              <span class="article-tag">#Gallery</span>
             </div>
-            <div class="space-y-4">
-              <h3 class="text-2xl font-medium text-[#333333]">My Gallery</h3>
-              <p class="break-words text-sm font-medium text-[#828282] lg:text-base">
+            <div class="article-content-container">
+              <h3>My Gallery</h3>
+              <p>
                 In this project, I work with NEXT.JS, HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
               </p>
             </div>
-            <div class="flex flex-row justify-center gap-x-3 lg:justify-normal">
-              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/my-gallery" class="rounded-xl bg-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-white lg:text-lg">Demo</span>
+            <div class="article-link-container">
+              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/my-gallery" class="article-link-demo" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Demo</span>
               </a>
-              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/my-gallery" class="rounded-xl border border-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-[#2F80ED] lg:text-lg">Code</span>
+              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/my-gallery" class="article-link-code" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Code</span>
               </a>
             </div>
           </div>
         </article>
-        <article class="flex flex-col gap-x-6 gap-y-4 rounded-xl bg-white p-4 lg:flex-row lg:p-6">
-          <figure class="relative my-auto aspect-square w-full overflow-hidden rounded-xl hover:shadow-md lg:w-2/5">
+        <article class="article-project-container">
+          <figure class="article-project-img-container">
             <img
               alt="Checkout Page"
-              loading="lazy"
-              width="1170"
-              height="829"
-              decoding="async"
-              data-nimg="1"
-              class="aspect-square rounded-xl object-cover object-left-top transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
               style="color: transparent;"
               src="./static/images/checkout-page-desktop.png"
             />
           </figure>
-          <div class="w-full space-y-4 lg:w-3/5 lg:space-y-6">
-            <div class="w-full space-x-2 break-words">
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Next.js</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#HTML</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#CSS</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#responsive</span>
-              <span class="select-none text-sm font-medium lg:text-base cursor-not-allowed text-[#2F80ED]">#Checkout</span>
+          <div class="article-tag-container">
+            <div>
+              <span class="article-tag">#Next.js</span>
+              <span class="article-tag">#HTML</span>
+              <span class="article-tag">#CSS</span>
+              <span class="article-tag">#responsive</span>
+              <span class="article-tag">#Checkout</span>
             </div>
-            <div class="space-y-4">
-              <h3 class="text-2xl font-medium text-[#333333]">Checkout</h3>
-              <p class="break-words text-sm font-medium text-[#828282] lg:text-base">
+            <div class="article-content-container">
+              <h3>Checkout</h3>
+              <p>
                 In this project, I work with NEXT.JS, HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
               </p>
             </div>
-            <div class="flex flex-row justify-center gap-x-3 lg:justify-normal">
-              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/checkout-page" class="rounded-xl bg-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-white lg:text-lg">Demo</span>
+            <div class="article-link-container">
+              <a href="https://devchallenges-solutions.vercel.app/legacy/responsive-web-developer/checkout-page" class="article-link-demo" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Demo</span>
               </a>
-              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/checkout-page" class="rounded-xl border border-[#2F80ED] px-9 py-2" target="_blank" rel="nofollow noopener noreferrer">
-                <span class="text-base font-medium text-[#2F80ED] lg:text-lg">Code</span>
+              <a href="https://github.com/imranwijaya/devchallenges/tree/legacy/src/app/responsive-web-developer/checkout-page" class="article-link-code" target="_blank" rel="nofollow noopener noreferrer">
+                <span>Code</span>
               </a>
-            </div>
-          </div>
-        </article>
-        <article class="flex flex-col gap-x-6 gap-y-4 rounded-xl bg-white p-4 lg:flex-row-reverse lg:items-center lg:justify-between lg:p-6 lg:pr-0">
-          <figure class="w-full flex-none lg:w-1/2">
-            <img alt="How to organize your CSS" class="aspect-video w-full rounded-xl object-cover lg:rounded-r-none" style="color: transparent;" src="./static/images/blog-how-to-organize-your-css.png" />
-          </figure>
-          <div class="space-y-4 lg:space-y-6">
-            <div class="space-y-4">
-              <h3 class="text-2xl font-medium text-[#333333]">How to organize your CSS</h3>
-              <p class="text-sm font-medium text-[#828282] lg:text-base">
-                In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
-              </p>
-            </div>
-            <div class="flex flex-row justify-normal gap-x-3">
-              <a href="https://dev.to/couellet/how-to-organize-your-css-with-a-modular-architecture-oocss-bem-smacss-3gk0" class="pt-2 text-[#2F80ED]" target="_blank" rel="nofollow noopener noreferrer">dev.to</a>
             </div>
           </div>
         </article>
       </div>
-      <aside class="lg:w-4/12">
-        <div class="p-2 rounded-xl bg-white w-full">
+      <aside>
+        <div class="aside-container">
           <figure>
-            <img alt="user image" class="aspect-square w-full rounded-xl object-cover object-top" style="color: transparent;" src="./static/images/user-image.png" />
+            <img alt="user image" class="aside-img" style="color: transparent;" src="./static/images/user-image.png" />
           </figure>
-          <div class="space-y-8">
-            <div class="space-y-1">
+          <div class="aside-content">
+            <div class="aside-1">
               <h3 class="text-2xl font-semibold">Billy Pearson</h3>
               <p class="text-lg font-medium text-[#828282]">Front-end developer</p>
             </div>
-            <div class="space-y-2">
-              <div class="text-lg font-medium">billy@example.com</div>
-              <div class="text-lg font-medium">(+603) 546 624 342</div>
+            <div class="aside-2">
+              <div>billy@example.com</div>
+              <div>(+603) 546 624 342</div>
             </div>
-            <div class="text-lg font-medium text-[#828282]">Self-motivated developer, who is willing to learn and create outstanding UI applications.</div>
+            <div class="aside-3">Self-motivated developer, who is willing to learn and create outstanding UI applications.</div>
           </div>
         </div>
       </aside>
     </main>
-    <footer class="h-16 w-full">
-      <div class="container min-h-16 w-full mx-auto items-center justify-center flex px-4 py-0">
-        <p class="text-[#BDBDBD] text-center">
-          created by&nbsp;<a href="https://github.com/imranwijaya" target="_blank" rel="nofollow noopener noreferrer" aria-label="Github"><span class="font-bold underline">imranwijaya</span></a>&nbsp;- dicoding.com
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>
+          created by&nbsp;<a href="https://github.com/imranwijaya" target="_blank" rel="nofollow noopener noreferrer" aria-label="Github"><span class="footer-link">imranwijaya</span></a>&nbsp;- dicoding.com
         </p>
       </div>
     </footer>
